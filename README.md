@@ -1,5 +1,7 @@
 ﻿<p align="center">
-  <img src="assets/readme-banner.svg" alt="DOOM.DOC — the internet's worst doctor" width="100%" />
+  <a href="https://albertinothecoder.github.io/Doom-Doc/">
+    <img src="assets/readme-banner.svg" alt="Open DOOM.DOC — the internet's worst doctor" width="100%" />
+  </a>
 </p>
 
 <p align="center">
