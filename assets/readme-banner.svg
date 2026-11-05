@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="490" viewBox="0 0 1500 490" fill="none">
+  <defs>
+    <linearGradient id="bg" x2="1" y2="1"><stop stop-color="#131717"/><stop offset="1" stop-color="#23342b"/></linearGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M40 0H0V40" stroke="#d4fa75" stroke-opacity=".045"/></pattern>
+  </defs>
+  <rect width="1500" height="490" rx="24" fill="url(#bg)"/>
+  <rect width="1500" height="490" rx="24" fill="url(#grid)"/>
+  <path d="M0 466H1500" stroke="#d4fa75" stroke-width="3"/>
+  <rect y="468" width="1500" height="22" fill="#d4fa75" fill-opacity=".12"/>
+  <rect x="72" y="73" width="7" height="21" fill="#d4fa75"/>
+  <text x="96" y="89" fill="#d4fa75" font-family="monospace" font-size="16" letter-spacing="4">YOUR SYMPTOMS. OUR WORST GUESS.</text>
+  <text x="68" y="216" fill="#f7f6ee" font-family="Arial, Helvetica, sans-serif" font-size="114" font-weight="900" letter-spacing="-7">DOOM<tspan fill="#d4fa75">.DOC</tspan></text>
+  <text x="74" y="269" fill="#f7f6ee" font-family="monospace" font-size="25">The internet's worst doctor.</text>
+  <text x="74" y="321" fill="#b8beb7" font-family="monospace" font-size="18">Real symptoms. Ridiculous conclusions.</text>
+  <text x="74" y="350" fill="#b8beb7" font-family="monospace" font-size="18">A symptom-checker parody with zero chill.</text>
+  <rect x="74" y="386" width="160" height="30" rx="4" fill="#d4fa75" fill-opacity=".18"/>
+  <text x="89" y="406" fill="#d4fa75" font-family="monospace" font-size="12" font-weight="bold">100% ENTERTAINMENT</text>
+  <rect x="246" y="386" width="128" height="30" rx="4" fill="#b9abff" fill-opacity=".18"/>
+  <text x="262" y="406" fill="#d0c6ff" font-family="monospace" font-size="12" font-weight="bold">0% MEDICINE</text>
+  <g transform="translate(1080 87) rotate(9 120 150)">
+    <rect x="13" y="15" width="248" height="302" rx="22" fill="#090f0c" fill-opacity=".5"/>
+    <rect width="248" height="302" rx="22" fill="#f7f6ee"/>
+    <rect x="71" y="-12" width="106" height="33" rx="10" fill="#b9abff"/>
+    <rect x="102" y="46" width="44" height="112" rx="5" fill="#131717"/>
+    <rect x="68" y="80" width="112" height="44" rx="5" fill="#131717"/>
+    <path d="M30 199H75L89 178L111 223L130 193H217" stroke="#ff725d" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+    <rect x="31" y="250" width="118" height="7" rx="3" fill="#b8beb7"/>
+    <rect x="31" y="269" width="77" height="7" rx="3" fill="#b8beb7"/>
+    <circle cx="201" cy="259" r="24" fill="#d4fa75"/>
+    <path d="M190 259L198 267L213 250" stroke="#131717" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+  <circle cx="1010" cy="100" r="4" fill="#d4fa75" fill-opacity=".6"/>
+  <circle cx="1396" cy="361" r="5" fill="#b9abff" fill-opacity=".6"/>
+  <path d="M965 371H989M977 359V383" stroke="#d4fa75" stroke-width="3" stroke-opacity=".6"/>
+</svg>

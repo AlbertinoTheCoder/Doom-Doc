@@ -1,26 +1,37 @@
-# DOOM.DOC
+﻿<p align="center">
+  <img src="assets/readme-banner.svg" alt="DOOM.DOC — the internet's worst doctor" width="100%" />
+</p>
 
-A symptom-checker parody: select symptoms, get an absurd diagnosis, and copy the result to share. Built with plain HTML, CSS, and JavaScript in a single file.
+<p align="center">
+  <a href="https://albertinothecoder.github.io/Doom-Doc/"><img src="https://img.shields.io/badge/PLAY-LIVE_DEMO-d4fa75?style=for-the-badge&labelColor=202724" alt="Play live demo" /></a>
+  <a href="https://github.com/AlbertinoTheCoder/Doom-Doc/actions/workflows/check.yml"><img src="https://img.shields.io/github/actions/workflow/status/AlbertinoTheCoder/Doom-Doc/check.yml?branch=main&style=for-the-badge&label=CHECKS&labelColor=202724" alt="Formatting checks" /></a>
+  <img src="https://img.shields.io/badge/STACK-HTML_CSS_JS-b9abff?style=for-the-badge&labelColor=202724" alt="HTML, CSS, JavaScript" />
+  <img src="https://img.shields.io/badge/MEDICAL_ACCURACY-0%25-ff725d?style=for-the-badge&labelColor=202724" alt="Medical accuracy: zero percent" />
+</p>
 
-**Entertainment only. The diagnoses are fictional and are not medical advice.**
+<p align="center">
+  Select your symptoms. Receive an absurd diagnosis. Share your doom.<br />
+  <strong>Entertainment only. Fictional diagnoses. Not medical advice.</strong>
+</p>
 
-## Run locally
+## The experience
 
-Open `index.html` in your browser. No installation, build step, API keys, or backend is required.
+- Search and filter symptoms, or let the random picker decide your fate.
+- Generate a wildly fake diagnosis with equally questionable treatment.
+- Reroll your results and copy them to share.
+- Use it on mobile or desktop, with no account or installation.
 
-For a local server, run the following from the project folder, then visit <http://localhost:8000>:
+## Try it
 
-```sh
-python -m http.server 8000
-```
+**[Open DOOM.DOC →](https://albertinothecoder.github.io/Doom-Doc/)**
 
-Clipboard access works best on localhost or HTTPS.
+To run locally, open `index.html` in your browser. No build step or API keys required.
+
+Prefer a local server? Run `python -m http.server 8000` and visit <http://localhost:8000>. Clipboard access works best on localhost or HTTPS.
 
 ## Development
 
-Edit `index.html`, which contains the page markup, styles, symptom data, and application logic.
-
-Optional formatting tools require Node.js and npm:
+The complete app lives in `index.html`: markup, styles, symptom data, and logic.
 
 ```sh
 npm ci
@@ -28,17 +39,8 @@ npm run format
 npm run check
 ```
 
-Formatting is checked automatically on pushes and pull requests to `main`.
-
-## Repository layout
-
-- `index.html`: the complete app and static hosting entry point.
-- `.github/workflows/check.yml`: formatting check.
-- `.editorconfig`, `.gitattributes`, and `.prettierrc.json`: consistent formatting and line endings.
-- `.gitignore`: excludes credentials, generated files, and local exports.
-
-The original duplicate exports are retained locally in the ignored `.local-originals/` directory. Make future changes in `index.html`.
+Node.js is only needed for formatting. GitHub Actions checks formatting on pushes and pull requests to `main`. GitHub Pages publishes the site from `main` automatically.
 
 ## Contributing
 
-Keep changes focused, preserve the satire disclaimer, run `npm run check`, and describe the behavior you changed in your pull request. For UI changes, check both a narrow mobile viewport and a desktop browser.
+Keep changes focused, preserve the satire disclaimer, and run `npm run check`. For UI changes, check mobile and desktop layouts and include a screenshot in your pull request.

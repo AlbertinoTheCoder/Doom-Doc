@@ -21,6 +21,7 @@ coverage/
 # Editor and operating system files
 .vscode/
 .idea/
+.playwright-mcp/
 .DS_Store
 Thumbs.db
 Desktop.ini
