@@ -1,0 +1,26 @@
+# Local exports and scratch files
+.local-originals/
+tmp/
+*.tmp
+*.bak
+
+# Dependencies and generated output
+node_modules/
+dist/
+build/
+coverage/
+*.log
+
+# Local environment and credentials
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Editor and operating system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+Desktop.ini
